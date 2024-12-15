@@ -32,6 +32,8 @@ jobs:
     - name: Preparing binary
       run: |
         mkdir build && cd build && cmake -DADD_EXAMPLES=ON .. && make
-    - name: Executing program
-      run: ./build/examples/basic/basic
+    - name: Executing builder program
+      run: ./build/examples/builder/builder
+    - name: Executing collector program
+      run: ./build/examples/collector/collector
 

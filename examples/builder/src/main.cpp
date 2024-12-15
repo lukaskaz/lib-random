@@ -1,5 +1,4 @@
-#include "generators/uniform.hpp"
-#include "random/builder.hpp"
+#include "random/generators/uniform.hpp"
 
 #include <iostream>
 
